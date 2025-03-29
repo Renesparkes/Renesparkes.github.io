@@ -18,7 +18,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: var(--light-bg);
+            background-color: #ac97f7;
             color: var(--text-color);
             direction: rtl;
         }
@@ -166,6 +166,44 @@
             color: var(--secondary-color);
         }
         
+        .about-section {
+            background: #f8f5ff;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .about-title {
+            color: #3a1b7d;
+            font-weight: 700;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .about-title:after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: var(--primary-color);
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        
+        .about-content {
+            color: #2d2d2d;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: center;
+        }
+        
         footer {
             text-align: center;
             padding: 20px;
@@ -198,6 +236,14 @@
             .social-links {
                 justify-content: center;
             }
+            
+            .about-title {
+                font-size: 24px;
+            }
+            
+            .about-content {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
@@ -211,9 +257,8 @@
                 <h1>רנה ספרקס</h1>
                 <p class="subtitle">יוצרת פודקסט</p>
                 <p class="bio">
-                    היי, אני רנה! יוצרת פודקסט על נושאים כמו נוער בסיכון, דיכאון, התמודדות נפשית,להט"ב וטיפול נפשי
-                    בגלל שבאתי מהעולמות האלה, בכל פרק אני מביאה אורחים מעניינים לשיחות פתוחות וכנות. אנחנו מדברים פה מהלב, על הנושאים שאנשים לא מודעים עליהם בעולמות האלה 
-                    מוזמנים להצטרף אליי למסע!
+                    היי, אני רנה! יוצרת פודקסט על נושאים כמו נוער בסיכון, דיכאון, התמודדות נפשית, להט"ב וטיפול נפשי
+                    בכל פרק אני משתדלת להביא אורחים מעניינים לשיחות פתוחות וכנות. אנחנו מדברים פה מהלב, על הנושאים שאנשים לא מודעים עליהם בעולמות האלה מוזמנים להצטרף אליי למסע!
                 </p>
                 <div class="social-links">
                     <a href="https://www.tiktok.com/@rene.ispeaking?_t=ZS-8v4WQZWRhXM&_r=1" class="social-btn tiktok" target="_blank">
@@ -243,6 +288,17 @@
                 </div>
             </div>
         </section>
+        
+        <div class="about-section">
+            <h2 class="about-title">המסע שלי מהקושי לקול – ואיך הפכתי את הכאב לכוח</h2>
+            <p class="about-content">
+                היי, אני רנה. במהלך השנים שלי עברתי בין מסגרות נוער בסיכון, והמציאות הובילה אותי לדיכאון, ייאוש וקושי עמוק בגילאים צעירים. הגעתי לנקודה שבה היה צריך לבחור: להמשיך או לעצור את החיים שלי פה.<br><br>
+                המוח שלי היה האויב הכי גדול שלי, אבל החלטתי להילחם – ולטפל בעצמי.<br><br>
+                כנערה בסיכון שנפלה בין הכיסאות של הרווחה, הקול שלי נשמע. פעם שתקתי, היום הוא חזק מתמיד.<br><br>
+                הפודקסט שלי נולד מהמקום הכי פגיע שלי – כדי שלאף אחד לא יהיה את התירוץ לומר 'לא ידעתי'.<br><br>
+                אם גם את/ה מרגיש/ה שאף אחד לא מבין – בוא/י להקשיב. אולי תמצא/י כאן קצת מהאור שלך.
+            </p>
+        </div>
         
         <footer>
             <p>© 2025 רנה ספרקס - כל הזכויות שמורות</p>
